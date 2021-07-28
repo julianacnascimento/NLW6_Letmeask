@@ -46,19 +46,12 @@
     width: 100%;
     max-width: 320px;
     align-items: stretch;
-    text-align: center;
-    
-    > img {
-      align-items: center;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin: 64px 0 24px;
-      font-family: 'Poppins', sans-serif;
-    }
+    text-align: left;
 
     form {
+      p {
+        margin-left: 5px;
+      }
       input{
         height: 50px;
         border-radius: 8px;
@@ -71,14 +64,6 @@
       }
       button, input {
         width: 100%;
-      }
-    }
-    p {
-      font-size: 14px;
-      color: #737380;
-      margin-top: 16px;
-      a {
-        color: #e559f9;
       }
     }
   }
